@@ -1,0 +1,532 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@edu.com",
+      "password": "123",
+      "fullName": "Admin Principal",
+      "role": "admin"
+    },
+    {
+      "id": "101",
+      "email": "alan@edu.com",
+      "password": "123",
+      "fullName": "Dr. Alan Turing",
+      "role": "profesor"
+    },
+    {
+      "id": "102",
+      "email": "grace@edu.com",
+      "password": "123",
+      "fullName": "Dra. Grace Hopper",
+      "role": "profesor"
+    },
+    {
+      "id": "103",
+      "email": "ada@edu.com",
+      "password": "123",
+      "fullName": "Dra. Ada Lovelace",
+      "role": "profesor"
+    },
+    {
+      "id": "104",
+      "email": "isaac@edu.com",
+      "password": "123",
+      "fullName": "Dr. Isaac Newton",
+      "role": "profesor"
+    },
+    {
+      "id": "105",
+      "email": "marie@edu.com",
+      "password": "123",
+      "fullName": "Dra. Marie Curie",
+      "role": "profesor"
+    },
+    {
+      "id": "106",
+      "email": "albert@edu.com",
+      "password": "123",
+      "fullName": "Dr. Albert Einstein",
+      "role": "profesor"
+    },
+    {
+      "id": "107",
+      "email": "nikola@edu.com",
+      "password": "123",
+      "fullName": "Ing. Nikola Tesla",
+      "role": "profesor"
+    },
+    {
+      "id": "108",
+      "email": "katherine@edu.com",
+      "password": "123",
+      "fullName": "Dra. Katherine Johnson",
+      "role": "profesor"
+    },
+    {
+      "id": "109",
+      "email": "stephen@edu.com",
+      "password": "123",
+      "fullName": "Dr. Stephen Hawking",
+      "role": "profesor"
+    },
+    {
+      "id": "110",
+      "email": "richard@edu.com",
+      "password": "123",
+      "fullName": "Dr. Richard Feynman",
+      "role": "profesor"
+    },
+    {
+      "id": "201",
+      "email": "ana@edu.com",
+      "password": "123",
+      "fullName": "Ana García",
+      "role": "estudiante"
+    },
+    {
+      "id": "202",
+      "email": "carlos@edu.com",
+      "password": "123",
+      "fullName": "Carlos López",
+      "role": "estudiante"
+    },
+    {
+      "id": "203",
+      "email": "sofia@edu.com",
+      "password": "123",
+      "fullName": "Sofía Rodríguez",
+      "role": "estudiante"
+    },
+    {
+      "id": "204",
+      "email": "jorge@edu.com",
+      "password": "123",
+      "fullName": "Jorge Martínez",
+      "role": "estudiante"
+    },
+    {
+      "id": "205",
+      "email": "lucia@edu.com",
+      "password": "123",
+      "fullName": "Lucía Fernández",
+      "role": "estudiante"
+    },
+    {
+      "id": "206",
+      "email": "pedro@edu.com",
+      "password": "123",
+      "fullName": "Pedro Sánchez",
+      "role": "estudiante"
+    },
+    {
+      "id": "207",
+      "email": "elena@edu.com",
+      "password": "123",
+      "fullName": "Elena Pérez",
+      "role": "estudiante"
+    },
+    {
+      "id": "208",
+      "email": "miguel@edu.com",
+      "password": "123",
+      "fullName": "Miguel Gómez",
+      "role": "estudiante"
+    },
+    {
+      "id": "209",
+      "email": "laura@edu.com",
+      "password": "123",
+      "fullName": "Laura Díaz",
+      "role": "estudiante"
+    },
+    {
+      "id": "210",
+      "email": "raul@edu.com",
+      "password": "123",
+      "fullName": "Raúl Ruiz",
+      "role": "estudiante"
+    },
+    {
+      "id": "211",
+      "email": "mariana@edu.com",
+      "password": "123",
+      "fullName": "Mariana Torres",
+      "role": "estudiante"
+    },
+    {
+      "id": "212",
+      "email": "david@edu.com",
+      "password": "123",
+      "fullName": "David Vargas",
+      "role": "estudiante"
+    },
+    {
+      "id": "213",
+      "email": "camila@edu.com",
+      "password": "123",
+      "fullName": "Camila Castro",
+      "role": "estudiante"
+    },
+    {
+      "id": "214",
+      "email": "javier@edu.com",
+      "password": "123",
+      "fullName": "Javier Morales",
+      "role": "estudiante"
+    },
+    {
+      "id": "215",
+      "email": "daniela@edu.com",
+      "password": "123",
+      "fullName": "Daniela Herrera",
+      "role": "estudiante"
+    },
+    {
+      "id": "216",
+      "email": "andres@edu.com",
+      "password": "123",
+      "fullName": "Andrés Rojas",
+      "role": "estudiante"
+    },
+    {
+      "id": "217",
+      "email": "valeria@edu.com",
+      "password": "123",
+      "fullName": "Valeria Jiménez",
+      "role": "estudiante"
+    },
+    {
+      "id": "218",
+      "email": "gabriel@edu.com",
+      "password": "123",
+      "fullName": "Gabriel Silva",
+      "role": "estudiante"
+    },
+    {
+      "id": "219",
+      "email": "natalia@edu.com",
+      "password": "123",
+      "fullName": "Natalia Mendoza",
+      "role": "estudiante"
+    },
+    {
+      "id": "220",
+      "email": "mateo@edu.com",
+      "password": "123",
+      "fullName": "Mateo Flores",
+      "role": "estudiante"
+    },
+    {
+      "id": "221",
+      "email": "julia@edu.com",
+      "password": "123",
+      "fullName": "Julia Castillo",
+      "role": "estudiante"
+    },
+    {
+      "id": "222",
+      "email": "nicolas@edu.com",
+      "password": "123",
+      "fullName": "Nicolás Romero",
+      "role": "estudiante"
+    },
+    {
+      "id": "223",
+      "email": "sara@edu.com",
+      "password": "123",
+      "fullName": "Sara Paredes",
+      "role": "estudiante"
+    },
+    {
+      "id": "224",
+      "email": "diego@edu.com",
+      "password": "123",
+      "fullName": "Diego Ríos",
+      "role": "estudiante"
+    },
+    {
+      "id": "225",
+      "email": "valentina@edu.com",
+      "password": "123",
+      "fullName": "Valentina Gil",
+      "role": "estudiante"
+    },
+    {
+      "id": "226",
+      "email": "samuel@edu.com",
+      "password": "123",
+      "fullName": "Samuel Cabrera",
+      "role": "estudiante"
+    },
+    {
+      "id": "227",
+      "email": "isabella@edu.com",
+      "password": "123",
+      "fullName": "Isabella Núñez",
+      "role": "estudiante"
+    },
+    {
+      "id": "228",
+      "email": "felipe@edu.com",
+      "password": "123",
+      "fullName": "Felipe Campos",
+      "role": "estudiante"
+    },
+    {
+      "id": "229",
+      "email": "antonia@edu.com",
+      "password": "123",
+      "fullName": "Antonia Vega",
+      "role": "estudiante"
+    },
+    {
+      "id": "230",
+      "email": "tomas@edu.com",
+      "password": "123",
+      "fullName": "Tomás León",
+      "role": "estudiante"
+    },
+    {
+      "id": "e136",
+      "fullName": "Dr. Juan Perez",
+      "email": "juanperez@edu.com",
+      "role": "profesor",
+      "password": "123"
+    }
+  ],
+  "courses": [
+    {
+      "id": "1",
+      "name": "Ingeniería de Software",
+      "description": "Ciclo de vida del software, metodologías ágiles y patrones.",
+      "semestre": "2025-1",
+      "professorId": 101,
+      "price": 150
+    },
+    {
+      "id": "2",
+      "name": "Inteligencia Artificial",
+      "description": "Redes neuronales, Machine Learning y Deep Learning.",
+      "semestre": "2025-1",
+      "professorId": 101,
+      "price": 200
+    },
+    {
+      "id": "3",
+      "name": "Base de Datos Avanzada",
+      "description": "SQL, NoSQL, optimización y Big Data.",
+      "semestre": "2025-1",
+      "professorId": 102,
+      "price": 120
+    },
+    {
+      "id": "4",
+      "name": "Algoritmos y Estructuras",
+      "description": "Complejidad algorítmica, árboles y grafos.",
+      "semestre": "2025-1",
+      "professorId": 103,
+      "price": 130
+    },
+    {
+      "id": "5",
+      "name": "Física Cuántica",
+      "description": "Fundamentos de mecánica cuántica y relatividad.",
+      "semestre": "2025-1",
+      "professorId": 106,
+      "price": 250
+    },
+    {
+      "id": "6",
+      "name": "Cálculo Diferencial",
+      "description": "Límites, derivadas y aplicaciones matemáticas.",
+      "semestre": "2025-1",
+      "professorId": 104,
+      "price": 100
+    },
+    {
+      "id": "7",
+      "name": "Química Orgánica",
+      "description": "Estructura y reactividad de compuestos de carbono.",
+      "semestre": "2025-1",
+      "professorId": 105,
+      "price": 110
+    },
+    {
+      "id": "8",
+      "name": "Circuitos Eléctricos",
+      "description": "Análisis de corriente continua y alterna.",
+      "semestre": "2025-1",
+      "professorId": 107,
+      "price": 140
+    },
+    {
+      "id": "9",
+      "name": "Mecánica Orbital",
+      "description": "Trayectorias espaciales y dinámica de vuelo.",
+      "semestre": "2025-1",
+      "professorId": 108,
+      "price": 300
+    },
+    {
+      "id": "10",
+      "name": "Astrofísica General",
+      "description": "Estudio del universo, estrellas y galaxias.",
+      "semestre": "2025-1",
+      "professorId": 109,
+      "price": 220
+    }
+  ],
+  "enrollments": [
+    {
+      "id": "1",
+      "courseId": 1,
+      "studentId": 201,
+      "date": "2025-01-15T10:00:00Z",
+      "progress": 75,
+      "status": "active"
+    },
+    {
+      "id": "2",
+      "courseId": 2,
+      "studentId": 201,
+      "date": "2025-01-16T11:30:00Z",
+      "progress": 40,
+      "status": "active"
+    },
+    {
+      "id": "3",
+      "courseId": 3,
+      "studentId": 201,
+      "date": "2025-01-17T09:00:00Z",
+      "progress": 10,
+      "status": "active"
+    },
+    {
+      "id": "4",
+      "courseId": 4,
+      "studentId": 201,
+      "date": "2025-01-18T14:20:00Z",
+      "progress": 90,
+      "status": "completed"
+    },
+    {
+      "id": "5",
+      "courseId": 1,
+      "studentId": 202,
+      "date": "2025-01-15T10:00:00Z",
+      "progress": 60,
+      "status": "active"
+    },
+    {
+      "id": "6",
+      "courseId": 1,
+      "studentId": 203,
+      "date": "2025-01-15T10:00:00Z",
+      "progress": 20,
+      "status": "active"
+    },
+    {
+      "id": "7",
+      "courseId": 5,
+      "studentId": 205,
+      "date": "2025-01-20T08:00:00Z",
+      "progress": 0,
+      "status": "active"
+    }
+  ],
+  "assignments": [
+    {
+      "id": "1",
+      "courseId": 1,
+      "title": "Ensayo TDD",
+      "dueDate": "2025-12-20",
+      "description": "Escribir sobre Test Driven Development",
+      "submissionsCount": 15
+    },
+    {
+      "id": "2",
+      "courseId": 1,
+      "title": "Proyecto Final: API REST",
+      "dueDate": "2025-12-25",
+      "description": "Implementar backend completo",
+      "submissionsCount": 5
+    },
+    {
+      "id": "3",
+      "courseId": 2,
+      "title": "Red Neuronal Básica",
+      "dueDate": "2025-12-18",
+      "description": "Crear un perceptrón en Python",
+      "submissionsCount": 20
+    },
+    {
+      "id": "4",
+      "courseId": 3,
+      "title": "Modelado ER",
+      "dueDate": "2025-12-22",
+      "description": "Diagrama Entidad-Relación del proyecto",
+      "submissionsCount": 12
+    },
+    {
+      "id": "5",
+      "courseId": 5,
+      "title": "Informe Laboratorio 1",
+      "dueDate": "2025-12-19",
+      "description": "Experimento de doble rendija",
+      "submissionsCount": 30
+    }
+  ],
+  "submissions": [
+    {
+      "id": "1",
+      "assignmentId": 1,
+      "studentId": 201,
+      "fileUrl": "tarea_ana.pdf",
+      "status": "entregado",
+      "grade": 18
+    },
+    {
+      "id": "2",
+      "assignmentId": 3,
+      "studentId": 201,
+      "fileUrl": "red_ana.py",
+      "status": "entregado",
+      "grade": null
+    }
+  ],
+  "alerts": [
+    {
+      "id": "1",
+      "userId": 1,
+      "message": "Solicitud de matrícula pendiente: Carlos Lopez",
+      "type": "warning",
+      "timestamp": "Hace 10 min",
+      "module": "finance"
+    },
+    {
+      "id": "2",
+      "userId": 101,
+      "message": "Tienes 5 tareas sin calificar en Ing. Software",
+      "type": "info",
+      "timestamp": "Hace 1 hora",
+      "module": "academic"
+    },
+    {
+      "id": "3",
+      "userId": 201,
+      "message": "Examen de IA mañana a las 10:00 AM",
+      "type": "danger",
+      "timestamp": "Hace 2 horas",
+      "module": "academic"
+    },
+    {
+      "id": "4",
+      "userId": 1,
+      "message": "Intento de acceso fallido desde IP desconocida",
+      "type": "critical",
+      "timestamp": "Hace 5 min",
+      "module": "security"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+:root {
+  /* --- University Palette --- */
+  --primary-dark: #0f172a;      /* Navy Blue Profundo */
+  --primary: #1e293b;           /* Slate clásico */
+  --accent: #c2410c;            /* Orange/Brick (Ladrillo universitario) */
+  --gold: #d97706;              /* Toques dorados sutiles */
+  
+  --surface-main: #f8fafc;      /* Fondo app */
+  --surface-card: #ffffff;      /* Fondo tarjetas */
+  --border-light: #e2e8f0;
+  
+  /* Estados */
+  --success-bg: #ecfdf5; --success-text: #047857;
+  --warning-bg: #fffbeb; --warning-text: #b45309;
+  --danger-bg: #fef2f2;  --danger-text: #b91c1c;
+  
+  /* Sombras "Elevadas" */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-card: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-hover: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  
+  /* Radios */
+  --radius: 12px;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: var(--surface-main);
+  color: var(--primary-dark);
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, .brand-font {
+  font-family: 'Playfair Display', serif; /* Toque académico */
+  letter-spacing: -0.02em;
+}
+
+/* --- Layout Structure --- */
+.dashboard-container { display: flex; height: 100vh; overflow: hidden; }
+
+/* --- Componentes UI de Lujo --- */
+
+/* Botones */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;
+  padding: 0.65rem 1.25rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid transparent;
+
+  &-primary {
+    background: var(--primary-dark); color: white;
+    &:hover { background: #334155; transform: translateY(-1px); box-shadow: 0 4px 12px rgba(15, 23, 42, 0.25); }
+  }
+
+  &-outline {
+    background: transparent; border-color: var(--border-light); color: #64748b;
+    &:hover { border-color: var(--primary-dark); color: var(--primary-dark); background: white; }
+  }
+}
+
+/* Tarjetas */
+.card {
+  background: var(--surface-card);
+  border-radius: var(--radius);
+  border: 1px solid var(--border-light);
+  box-shadow: var(--shadow-sm);
+  transition: all 0.3s ease;
+  
+  &:hover {
+    box-shadow: var(--shadow-card);
+  }
+  
+  &.interactive:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-hover);
+    border-color: #cbd5e1;
+  }
+}
+
+/* Inputs Modernos */
+input, select, textarea {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border: 1px solid var(--border-light);
+  border-radius: 8px;
+  background: #fdfdfd;
+  font-family: inherit;
+  transition: all 0.2s;
+  
+  &:focus {
+    outline: none;
+    border-color: var(--primary-dark);
+    box-shadow: 0 0 0 3px rgba(15, 23, 42, 0.1);
+  }
+}
+
+/* Utilidades */
+.flex-between { display: flex; justify-content: space-between; align-items: center; }
+.text-muted { color: #64748b; font-size: 0.9rem; font-family: 'Plus Jakarta Sans', sans-serif; }
+.mb-4 { margin-bottom: 1.5rem; }
+
+/* Modal Premium */
+.modal-overlay {
+  position: fixed; inset: 0; background: rgba(15, 23, 42, 0.6); backdrop-filter: blur(4px);
+  z-index: 100; display: grid; place-items: center; animation: fade 0.2s;
+}
+.modal-content {
+  background: white; width: 90%; max-width: 480px; padding: 2rem;
+  border-radius: 16px; box-shadow: var(--shadow-hover);
+  animation: slide 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes slide { from { transform: translateY(20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
